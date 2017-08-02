@@ -1,0 +1,224 @@
+/* The main body of the whole page */
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* Formatting for all of the header 1 text */
+h1 {
+  font-family:'Amita';
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+/* formatting for all of the Header 2 text */
+h2{
+  font-family: 'Ranga', cursive;
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+h3{
+  font-family: 'Im Fell Great Primer';
+  font-weight: normal;
+  font-Size 20px;
+  margin: 5px 0;
+  padding:0;
+  z-index: 1;
+  position: relative;
+}
+.center{ margin:0 auto; }
+.content { margin:0 auto; width: 960 px; }
+.clear { clear: both; }
+
+#header 
+{
+  width: 100%;
+  background-color: black;
+  height: 80px;
+  position: fixed;
+  margin-top: 30px;
+  opacity: 0.6;
+  filter: alpha(opacity = 60);
+}
+#header:hover 
+{
+  opacity: 1.0;
+  filter: alpha(opacity = 100);
+}
+#nav{ width: 410px ; float: right; margin-top: 20px; }
+#Name a { color: #fff; font-family: 'Meddon'; float: left; font-size: 30px; margin-top: 20px; font-weight: bold; }
+#nav ul
+{
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+#nav li
+{
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+#nav li a {color: #fff; opacity:0.6; font-size: 16px; font-family: Georgia, serif; }
+#nav li a.active { color: #fff; opacity: 1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #fff; opacity:1; }
+.Education { position: relative; left: 300px; font-family: Times New Roman, Times, serif;}
+
+#Home button a
+{
+  color: black;
+}
+button 
+{
+  display: block;
+  text-align: center;
+  padding: 15px 25px;
+  margin: 0 auto;
+}
+#Home,#About { width: 100%; }
+#Home
+{
+  background-image: url(https://lh3.googleusercontent.com/V_px_8RB5pMWiVq5sinY7-qkmRD-iSJQcnuOqj-A_DhPN7qvs1dvUO8IcQ61Rzh2atDNa5FfnvQead49KnkIP33RW0rN2rxEP8ipEoVz1uFcHcohMt5B08TEPraXPDO_hnsM0PxFf0M); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 250px 0;  
+}
+#stitch_container
+{
+  /*stitching*/
+	outline: 1px dashed #98abb9;
+	outline-offset: -5px;
+	
+	background-color: #556068;
+	height: 300px;
+	width: 400px;
+	margin: 100px auto;
+	
+	/*shadow*/
+	-webkit-box-shadow: 2px 2px 2px #000;
+	-moz-box-shadow: 2px 2px 2px #000;
+	box-shadow: 2px 2px 2px #000;
+}
+#Home h1
+{
+  color: #fff;
+}
+#about 
+{
+  background: #4ECDC4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome   10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/     Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+#aContent p
+{
+  position: absolute;
+  left: 200px;
+  right: 200px;
+}
+
+#portfolio
+{
+  background-image: url(https://lh3.googleusercontent.com/4f1xD6C4_amdkmOkMzLUEa5T9Ys3aiWOYXgerZuVdex-g8Slcvw7BU08BcMH33yQmM2V2t8_BYAfgmTCkmFI9dWJcJGc1iHEamzkS8z0n_iFOkOJQewR0zMScu-G7X67YpRifo6Z42A);
+  padding: 200px;
+  background-size: cover
+}
+
+.pContent button a 
+{
+color: black;  
+}
+
+#portfolio h1
+{
+  color: white;
+}
+
+.img1
+{
+  float:left;
+  color: orange;
+}
+
+.img2
+{
+  position: relative;
+  left: 50px;
+  float:left;
+  color: orange;
+}
+.img3
+{
+  position: relative;
+  float :left;
+  left: 50px;
+  color: orange;
+}
+#contact 
+{
+  background-image: url(https://lh3.googleusercontent.com/-2wI0PCtgivjkGQruaV-_2JYgbuD-yNFkRLN_DGAPXHxFq5gac-lnc5IheHflI6V_Z9AtgJjyfF-LBGa4tt_W6XB2Xs26xEyAH46S7kJlgiyHeIbi-ZM62zJuHcjJuZNnhO9lMGt6jw);
+  height: 250px;
+  padding: 300px;
+  margin: 0 auto;
+  background-size: cover;
+  
+}
+
+#contact h1  
+{
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+#contact h2 
+{
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.facebook
+{
+  position: relative;
+  float: left;
+}
+
+.twitter
+{
+  position: relative;
+  left: 50px;
+  float: left;
+}
+
+.instagram
+{
+  position: relative;
+  left: 100px;
+  float: left;
+}
+.gitHub
+{
+  position: relative;
+  left: 150px;
+  float: left;
+}
+
+.codePen
+{
+  position: relative;
+  left: 200px;
+}
+
