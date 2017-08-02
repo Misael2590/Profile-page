@@ -6,7 +6,6 @@ body{
 }
 /* Formatting for all of the header 1 text */
 h1 {
-  font-family:'Amita';
   font-size: 60px;
   font-weight: normal;
   text-align: center;
@@ -16,7 +15,6 @@ h1 {
 }
 /* formatting for all of the Header 2 text */
 h2{
-  font-family: 'Ranga', cursive;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
@@ -24,7 +22,6 @@ h2{
   padding: 0;
 }
 h3{
-  font-family: 'Im Fell Great Primer';
   font-weight: normal;
   font-Size 20px;
   margin: 5px 0;
@@ -133,7 +130,10 @@ button
 {
   background-image: url(https://lh3.googleusercontent.com/4f1xD6C4_amdkmOkMzLUEa5T9Ys3aiWOYXgerZuVdex-g8Slcvw7BU08BcMH33yQmM2V2t8_BYAfgmTCkmFI9dWJcJGc1iHEamzkS8z0n_iFOkOJQewR0zMScu-G7X67YpRifo6Z42A);
   padding: 200px;
-  background-size: cover
+  background-size: cover;
+  img {
+    max-width: 100%;
+  }
 }
 
 .pContent button a 
@@ -146,33 +146,24 @@ color: black;
   color: white;
 }
 
-.img1
-{
-  float:left;
-  color: orange;
+.imgContainer > div {
+  float: left;
+  width: calc(33% - 15px);
+  margin: 0 7.5px;
+  color: white;
+  font-weight: bold;
 }
 
-.img2
-{
-  position: relative;
-  left: 50px;
-  float:left;
-  color: orange;
-}
-.img3
-{
-  position: relative;
-  float :left;
-  left: 50px;
-  color: orange;
-}
 #contact 
 {
   background-image: url(https://lh3.googleusercontent.com/-2wI0PCtgivjkGQruaV-_2JYgbuD-yNFkRLN_DGAPXHxFq5gac-lnc5IheHflI6V_Z9AtgJjyfF-LBGa4tt_W6XB2Xs26xEyAH46S7kJlgiyHeIbi-ZM62zJuHcjJuZNnhO9lMGt6jw);
-  height: 250px;
-  padding: 300px;
+  height: 200px;
+  padding: 300px 30px;
   margin: 0 auto;
   background-size: cover;
+  img {
+    max-width: 100%;
+  }
   
 }
 
@@ -190,35 +181,13 @@ color: black;
   text-align: center;
 }
 
-.facebook
-{
-  position: relative;
+#contact .content > div {
   float: left;
+  width: calc(20% - 15px);
+  margin: 0 7.5px;
 }
 
-.twitter
-{
-  position: relative;
-  left: 50px;
+.footer-content {
   float: left;
+  width: 100%
 }
-
-.instagram
-{
-  position: relative;
-  left: 100px;
-  float: left;
-}
-.gitHub
-{
-  position: relative;
-  left: 150px;
-  float: left;
-}
-
-.codePen
-{
-  position: relative;
-  left: 200px;
-}
-
